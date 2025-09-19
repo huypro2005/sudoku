@@ -22,11 +22,8 @@ class Sudoku_Solve:
                         self.domains[neighbor].discard(value)
 
     def con_cho(self):
-        print("Con cho Hung")
+        print("Con cho Huy")
 
-    def heelo(self):
-        print("Hello Huy")
-    
     def con_lon(self):
         print("Con lon Huy")
 
