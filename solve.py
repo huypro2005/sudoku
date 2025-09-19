@@ -22,7 +22,10 @@ class Sudoku_Solve:
                         self.domains[neighbor].discard(value)
 
     def con_cho(self):
-        print("Con cho Huy")
+        print("Con cho Hung")
+
+    def heelo(self):
+        print("Hello Hung")
 
     def propagate_constraints(self):
         change = True
