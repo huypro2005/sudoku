@@ -21,11 +21,6 @@ class Sudoku_Solve:
                     if value in self.domains[neighbor]:
                         self.domains[neighbor].discard(value)
 
-    def con_cho(self):
-        print("Con cho Huy")
-
-    def con_lon(self):
-        print("Con lon Hung")
 
     def propagate_constraints(self):
         change = True
