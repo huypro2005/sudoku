@@ -25,6 +25,9 @@ class Sudoku_Solve:
     def hello(self):
         print("hello")
 
+    def dog(self):
+        print("dog")
+
     def propagate_constraints(self):
         change = True
         while change:
