@@ -25,7 +25,7 @@ class Sudoku_Solve:
         print("Con cho Huy")
 
     def con_lon(self):
-        print("Con lon Huy")
+        print("Con lon Hung")
 
     def propagate_constraints(self):
         change = True
