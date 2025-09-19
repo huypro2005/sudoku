@@ -22,6 +22,8 @@ class Sudoku_Solve:
                         self.domains[neighbor].discard(value)
 
 
+    def hello(self):
+        print("hello")
 
     def propagate_constraints(self):
         change = True
